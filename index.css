@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Share+Tech&display=swap');
+
+h2, h3, h4 {
+    font-family: 'Bitcount Grid Double';
+    text-align: center;
+}
+
+p, a {
+    font-family: 'Share Tech';
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr;
+    column-gap: 10px;
+    justify-self: right;
+}
+
+#logo {
+    height: 80px;
+    width: auto;
+    display: block;
+}
+
+a {
+    text-align: center;
+}
+
+#welcome-line {
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+hr {
+    margin: 4px 150px;
+}
+
+#good-game-attr {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+}
