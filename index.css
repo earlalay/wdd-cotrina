@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Share+Tech&display=swap');
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
     font-family: 'Bitcount Grid Double';
     text-align: center;
 }
@@ -8,6 +8,11 @@ h2, h3, h4 {
 p, a {
     font-family: 'Share Tech';
     text-align: center;
+}
+
+.home-page-paragraphs {
+    font-size: 20px;
+    padding-bottom: 40px;
 }
 
 header {
@@ -38,8 +43,15 @@ a {
     margin-bottom: 16px;
 }
 
-hr {
-    margin: 4px 150px;
+#first-divider {
+    margin: 0px 160px;
+}
+
+#second-divider {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #good-game-attr {
