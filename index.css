@@ -85,8 +85,8 @@ a:hover {
 }
 
 img {
-  display: block;
-  margin: 0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 #welcome-line {
@@ -95,14 +95,11 @@ img {
 }
 
 #first-divider {
-    margin: 0px 160px;
+    margin: 0px 180px;
 }
 
 #second-divider {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 20px 40px 0;
 }
 
 #first-divider, #second-divider {
@@ -115,6 +112,7 @@ img {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
+    margin: 0 40px;
 }
 
 .games {
